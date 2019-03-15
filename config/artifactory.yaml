@@ -1,0 +1,8 @@
+unclassified:
+  artifactoryBuilder:
+    artifactoryServers:
+      - serverId: 'javaci'
+        artifactoryUrl: '${ARTIFACTORY_URL}'
+        deployerCredentialsConfig:
+          username: '${ARTIFACTORY_USER}'
+          password: '${ARTIFACTORY_PASSWORD}'

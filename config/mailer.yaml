@@ -1,0 +1,8 @@
+unclassified:
+  mailer:
+    adminAddress: javaci@altkomsoftware.pl
+    charset: UTF-8
+    defaultSuffix: altkomsoftware.pl
+    replyToAddress: javaci@altkomsoftware.pl
+    smtpHost: smtp.altkom.pl
+    useSsl: false

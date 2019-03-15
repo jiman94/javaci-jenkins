@@ -1,0 +1,7 @@
+jenkins:
+  SecurityRealm:
+    activeDirectory:
+      groupLookupStrategy: AUTO
+      startTls: false
+      domains:
+      - name: "software.altkom.pl"

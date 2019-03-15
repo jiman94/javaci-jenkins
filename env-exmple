@@ -1,0 +1,5 @@
+export ARTIFACTORY_URL=http://artifactory:8081/artifactory
+export ARTIFACTORY_USER=jenkins
+export ARTIFACTORY_PASSWORD=jenkins
+export SONAR_URL=http://sonar:9000/
+export SONAR_TOKEN=1q2w3e

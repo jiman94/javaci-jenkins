@@ -1,0 +1,18 @@
+jenkins:
+  authorizationStrategy:
+    roleBased:
+      roles:
+        global:
+        - name: "admin"
+          description: "Jenkins administrators"
+          permissions:
+          - "Overall/Administer"
+          assignments:
+          - "rkusmierek"
+        - name: "readonly"
+          description: "Read-only users"
+          permissions:
+          - "Overall/Read"
+          - "Job/Read"
+          assignments:
+          - "authenticated"

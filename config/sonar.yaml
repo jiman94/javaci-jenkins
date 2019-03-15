@@ -1,0 +1,6 @@
+unclassified:
+  sonarGlobalConfiguration:
+    installations:
+    - name: "${SONAR_URL}"
+      serverUrl: "${SONAR_URL}"
+      serverAuthenticationToken: '${SONAR_TOKEN}'

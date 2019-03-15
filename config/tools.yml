@@ -1,0 +1,21 @@
+tool:
+  git:
+    installations:
+    - home: "git"
+      name: "Default"
+  jdk:
+    installations:
+    - home: "/usr/lib/jvm/java-8-openjdk-amd64"
+      name: "jdk1.8.0_144"
+    - home: "/usr/lib/jvm/java-8-openjdk-amd64"
+      name: "jdk1.8.0_60"
+    - home: "/usr/lib/jvm/java-8-openjdk-amd64"
+      name: "jdk8"
+  maven:
+    installations:
+    - name: "Maven 3"
+      properties:
+      - installSource:
+          installers:
+          - maven:
+              id: "3.3.1"

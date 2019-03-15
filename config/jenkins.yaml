@@ -1,0 +1,15 @@
+jenkins:
+  globalNodeProperties:
+  - zenTimestamp:
+      pattern: "yyyy-MM-dd_HH-mm-ss"
+  mode: NORMAL
+  numExecutors: 2
+  primaryView:
+    all:
+      name: "all"
+  quietPeriod: 5
+  scmCheckoutRetryCount: 0
+unclassified:
+  location:
+    url: "${JENKINS_URL}"
+    adminAddress: "javaci@altkomsoftware.pl"
