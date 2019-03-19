@@ -15,7 +15,7 @@ docker run \
   -p 8080:8080 \
   -p 50000:50000 \
   -u root \
-  -v /var/opt/jenkins:/var/jenkins_home \
+  -v /opt/jenkins:/var/jenkins_home \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -v ${BASEDIR}/config:/var/jenkins_home/casc_configs \
   -e CASC_JENKINS_CONFIG=/var/jenkins_home/casc_configs \
