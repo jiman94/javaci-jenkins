@@ -5,11 +5,11 @@ tool:
       name: "Default"
   jdk:
     installations:
+    - home: "/opt/jdk1.8.0_201"
+      name: "jdk1.8.0_201"
     - home: "/usr/lib/jvm/java-8-openjdk-amd64"
-      name: "jdk1.8.0_144"
-    - home: "/usr/lib/jvm/java-8-openjdk-amd64"
-      name: "jdk1.8.0_60"
-    - home: "/usr/lib/jvm/java-8-openjdk-amd64"
+      name: "jdk1.8.0_181"
+    - home: "/opt/jdk1.8.0_201"
       name: "jdk8"
   maven:
     installations:
