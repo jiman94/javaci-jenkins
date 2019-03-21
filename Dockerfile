@@ -20,6 +20,9 @@ RUN add-apt-repository \
 RUN apt-get update && \
     apt-get install -y docker-ce docker-ce-cli containerd.io
 
+RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
+RUN apt-get install -y nodejs
+
 USER jenkins
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 COPY plugins.txt /plugins.txt
