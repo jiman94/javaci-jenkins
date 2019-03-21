@@ -14,7 +14,7 @@ docker run \
   --restart=unless-stopped \
   -p 8080:8080 \
   -p 50000:50000 \
-  -u root \
+  -u $(id -u jenkins):$(id -g jenkins) \
   -v /opt/jenkins:/var/jenkins_home \
   -v /opt/jdk1.8.0_201:/opt/jdk1.8.0_201 \
   -v /var/run/docker.sock:/var/run/docker.sock \
