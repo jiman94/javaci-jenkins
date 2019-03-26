@@ -21,4 +21,9 @@ docker run \
   -v ${BASEDIR}/config:/var/jenkins_home/casc_configs \
   -e CASC_JENKINS_CONFIG=/var/jenkins_home/casc_configs \
   -e JENKINS_URL=http://${HOSTNAME}:8080/ \
+  -e ARTIFACTORY_URL \
+  -e ARTIFACTORY_USER \
+  -e ARTIFACTORY_PASSWORD \
+  -e SONAR_URL \
+  -e SONAR_TOKEN \
   labasc/javaci-jenkins
